@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>rem/em Calculator</title>
+</head>
+
+<body>
+    <main class="card container">
+        <h1 class="title">rem/em Calculator</h1>
+        <div class="radio-btns">
+            <input type="radio" name="radio" id="rem-radio" checked>
+            <label for="rem-radio" class="rem-radio-label">rem</label>
+            <input type="radio" name="radio" id="em-radio">
+            <label for="em-radio">em</label>
+        </div>
+        <div class="input-result" id="input-result">
+            <div class="base-px-container">
+                <label for="base-px">base px</label>
+                <input type="text" class="base-px-input" id="base-px-input" maxlength="5">
+            </div>
+            <div class="input-result-container">
+                <label for="px-input-el">px</label>
+                <input type="text" class="px-input" id="px-input-el" maxlength="5">
+                <p class="to">=</p>
+                <p class="rem-result" id="result-el"></p>
+                <p class="result-text-unit"></p>
+            </div>
+        </div>
+        <button class="calculate btn" id="calculate-el">Calculate</button>
+        <script src="script.js"></script>
+    </main>
+</body>
+
+</html>

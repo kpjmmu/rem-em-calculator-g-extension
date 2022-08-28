@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+/* ==============
+   Typography
+   ==============*/
+
+.title {
+    font-size: 1.75rem;
+}
+
+.rem-result {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+/* ==============
+   Layout
+   ==============*/
+
+.container {
+    padding: 1em;
+}
+
+.card {
+    background: linear-gradient(to bottom, #232A34, #181E27);
+    width: 400px;
+    max-height: 300px;
+}
+
+/* ==============
+   Radio buttons
+   ==============*/
+
+.radio-btns {
+    margin: 1rem 0;
+}
+
+.rem-radio-label {
+    margin-right: 1rem;
+}
+
+.rem-radio {
+    margin-right: 1em;
+}
+
+.px-input,
+.base-px-input {
+    font-size: 1.5rem;
+    width: 75px;
+    text-align: center;
+}
+
+/* ==============
+   Buttons
+   ==============*/
+
+.btn {
+    color: #fff;
+    background: #FC7614;
+    padding: .688rem;
+    text-align: center;
+    width: 100%;
+    border: none;
+    border-radius: 500px;
+    font-size: 1rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #fff;
+    color: #FC7614;
+}
+
+/* ==============
+   Input/Results
+   ==============*/
+
+.input-result {
+    margin-bottom: 1rem;
+}
+
+.to,
+.rem-result,
+.result-text-unit {
+    display: inline;
+}
+
+.to {
+    margin: 0 .5rem;
+}
+
+.base-px-container {
+    display: none;
+}
+
+.base-px-input {
+    display: inline-block;
+    margin-bottom: 1rem;
+}
